@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=HDR_8 Pin=U1-10
+Removed Pin From Net: NetName=HDR_7 Pin=U1-11
+Removed Pin From Net: NetName=LED_R Pin=U1-27
+Removed Pin From Net: NetName=LED_G Pin=U1-28
+Added Pin To Net: NetName=LED_R Pin=U1-10
+Added Pin To Net: NetName=LED_G Pin=U1-11
+Added Pin To Net: NetName=HDR_8 Pin=U1-27
+Added Pin To Net: NetName=HDR_7 Pin=U1-28

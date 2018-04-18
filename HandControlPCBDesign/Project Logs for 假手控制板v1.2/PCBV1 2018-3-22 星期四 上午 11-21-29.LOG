@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MOTOR1_IN1 Pin=U1-18
+Removed Pin From Net: NetName=MOTOR1_IN2 Pin=U1-19
+Removed Pin From Net: NetName=HDR_2 Pin=U1-21
+Removed Pin From Net: NetName=HDR_1 Pin=U1-22
+Added Pin To Net: NetName=HDR_2 Pin=U1-18
+Added Pin To Net: NetName=HDR_1 Pin=U1-19
+Added Pin To Net: NetName=MOTOR1_IN1 Pin=U1-21
+Added Pin To Net: NetName=MOTOR1_IN2 Pin=U1-22

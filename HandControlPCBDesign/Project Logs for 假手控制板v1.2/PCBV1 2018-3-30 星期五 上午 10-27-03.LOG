@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=M1_IN2/TIM2_CH4 Pin=p4-2
+Added Pin To Net: NetName=M1_IN1/TIM2_CH3 Pin=p4-3
+Added Pin To Net: NetName=M2_IN2/TIM1_CH2 Pin=p5-2
+Added Pin To Net: NetName=M2_IN1/TIM1_CH1 Pin=p5-3
+Added Pin To Net: NetName=M3_IN2/TIM1_CH4 Pin=p6-2
+Added Pin To Net: NetName=M3_IN1/TIM1_CH3 Pin=p6-3
+Added Pin To Net: NetName=M4_IN2/TIM4_CH2 Pin=p7-2
+Added Pin To Net: NetName=M4_IN1/TIM4_CH1 Pin=p7-3
+Added Pin To Net: NetName=M5_IN2/TIM4_CH4 Pin=p8-2
+Added Pin To Net: NetName=M5_IN1/TIM4_CH3 Pin=p8-3

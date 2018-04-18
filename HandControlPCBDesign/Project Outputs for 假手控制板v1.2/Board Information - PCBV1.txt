@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : H:\research\HandControlPCBv1.2\PCBV1.2.PcbDoc
+Date         : 2018/3/22 ÐÇÆÚËÄ
+Time         : ÏÂÎç 7:43:39
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 166
+    Connections routed, 166
+    Connections remaining, 0
+count : 4

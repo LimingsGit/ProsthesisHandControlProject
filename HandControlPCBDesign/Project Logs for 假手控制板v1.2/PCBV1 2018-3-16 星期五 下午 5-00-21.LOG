@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=MOTOR5_IN1 Pin=U1-42
+Removed Pin From Net: NetName=MOTOR5_IN2 Pin=U1-43
+Removed Pin From Net: NetName=MOTOR4_IN1 Pin=U1-45
+Removed Pin From Net: NetName=MOTOR4_IN2 Pin=U1-46
+Added Pin To Net: NetName=MOTOR4_IN1 Pin=U1-42
+Added Pin To Net: NetName=MOTOR4_IN2 Pin=U1-43
+Added Pin To Net: NetName=MOTOR5_IN1 Pin=U1-45
+Added Pin To Net: NetName=MOTOR5_IN2 Pin=U1-46
+Added Member To Class: ClassName=‘≠¿ÌÕºv1.2 Member=Component P3 8V_Input

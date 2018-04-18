@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=HDR_8 Pin=U1-14
+Removed Pin From Net: NetName=HDR_7 Pin=U1-15
+Removed Pin From Net: NetName=HDR_6 Pin=U1-16
+Removed Pin From Net: NetName=HDR_5 Pin=U1-17
+Removed Pin From Net: NetName=HDR_4 Pin=U1-18
+Removed Pin From Net: NetName=HDR_3 Pin=U1-19
+Removed Pin From Net: NetName=MOTOR1_IN1 Pin=U1-26
+Removed Pin From Net: NetName=MOTOR1_IN2 Pin=U1-27
+Removed Pin From Net: NetName=MOTOR2_FAULT Pin=U1-28
+Removed Pin From Net: NetName=MOTOR3_FAULT Pin=U1-31
+Removed Pin From Net: NetName=MOTOR3_IN1 Pin=U1-32
+Removed Pin From Net: NetName=MOTOR3_IN2 Pin=U1-33
+Removed Pin From Net: NetName=MOTOR4_FAULT Pin=U1-38
+Removed Pin From Net: NetName=MOTOR4_IN1 Pin=U1-39
+Removed Pin From Net: NetName=MOTOR4_IN2 Pin=U1-40
+Removed Pin From Net: NetName=LED_G Pin=U1-45
+Removed Pin From Net: NetName=LED_R Pin=U1-46
+Change Component Comment : Designator=C3 Old Comment=0.1uf New Comment=Cap
+Change Component Comment : Designator=C6 Old Comment=0.1uf New Comment=Cap
+Change Component Comment : Designator=C7 Old Comment=0.1uf New Comment=Cap
+Change Component Comment : Designator=C8 Old Comment=0.1uf New Comment=Cap
+Change Component Comment : Designator=C9 Old Comment=0.1uf New Comment=Cap
+Change Component Comment : Designator=C11 Old Comment=0.1uF New Comment=Cap
+Change Component Comment : Designator=C13 Old Comment=0.1uf New Comment=Cap
+Change Component Comment : Designator=C15 Old Comment=0.1uf New Comment=Cap
+Change Component Comment : Designator=C20 Old Comment=0.1uF New Comment=Cap
+Change Component Comment : Designator=C22 Old Comment=0.1uF New Comment=Cap
+Change Component Comment : Designator=C24 Old Comment=0.1uF New Comment=Cap
+Change Component Comment : Designator=C25 Old Comment=0.1uF New Comment=Cap
+Change Component Comment : Designator=C29 Old Comment=0.1uF New Comment=Cap
+Change Component Comment : Designator=R10 Old Comment=0.5R New Comment=Res1
+Change Component Comment : Designator=R11 Old Comment=0.5R New Comment=Res1
+Change Component Comment : Designator=R12 Old Comment=0.5R New Comment=Res1
+Change Component Comment : Designator=R13 Old Comment=0.5R New Comment=Res1
+Change Component Comment : Designator=R14 Old Comment=0.5R New Comment=Res1
+Change Component Comment : Designator=R8 Old Comment=0R New Comment=Res1
+Change Component Comment : Designator=R6 Old Comment=1k New Comment=Res1
+Change Component Comment : Designator=R7 Old Comment=1k New Comment=Res1
+Change Component Comment : Designator=R9 Old Comment=1k New Comment=Res1
+Change Component Comment : Designator=C10 Old Comment=1uf New Comment=Cap
+Change Component Comment : Designator=C4 Old Comment=4.7uf New Comment=Cap
+Change Component Comment : Designator=C5 Old Comment=4.7uf New Comment=Cap
+Change Component Comment : Designator=C21 Old Comment=4.7uF New Comment=Cap
+Change Component Comment : Designator=C23 Old Comment=4.7uF New Comment=Cap
+Change Component Comment : Designator=C26 Old Comment=4.7uF New Comment=Cap
+Change Component Comment : Designator=C27 Old Comment=4.7uF New Comment=Cap
+Change Component Comment : Designator=C28 Old Comment=4.7uF New Comment=Cap
+Change Component Comment : Designator=R1 Old Comment=10k New Comment=Res1
+Change Component Comment : Designator=R2 Old Comment=10k New Comment=Res1
+Change Component Comment : Designator=R3 Old Comment=10k New Comment=Res1
+Change Component Comment : Designator=R4 Old Comment=10k New Comment=Res1
+Change Component Comment : Designator=R5 Old Comment=10k New Comment=Res1
+Change Component Comment : Designator=C12 Old Comment=10uf New Comment=Cap
+Change Component Comment : Designator=C14 Old Comment=10uf New Comment=Cap
+Change Component Comment : Designator=C1 Old Comment=18pF New Comment=Cap
+Change Component Comment : Designator=C2 Old Comment=18pF New Comment=Cap
+Added Pin To Net: NetName=MOTOR4_FAULT Pin=U1-2
+Added Pin To Net: NetName=HDR_8 Pin=U1-10
+Added Pin To Net: NetName=HDR_7 Pin=U1-11
+Added Pin To Net: NetName=HDR_6 Pin=U1-14
+Added Pin To Net: NetName=HDR_5 Pin=U1-15
+Added Pin To Net: NetName=HDR_4 Pin=U1-16
+Added Pin To Net: NetName=HDR_3 Pin=U1-17
+Added Pin To Net: NetName=MOTOR1_IN2 Pin=U1-18
+Added Pin To Net: NetName=MOTOR1_IN1 Pin=U1-19
+Added Pin To Net: NetName=MOTOR2_FAULT Pin=U1-26
+Added Pin To Net: NetName=LED_R Pin=U1-27
+Added Pin To Net: NetName=LED_G Pin=U1-28
+Added Pin To Net: NetName=MOTOR3_IN1 Pin=U1-31
+Added Pin To Net: NetName=MOTOR3_IN2 Pin=U1-32
+Added Pin To Net: NetName=MOTOR3_FAULT Pin=U1-33
+Added Pin To Net: NetName=MOTOR4_IN1 Pin=U1-45
+Added Pin To Net: NetName=MOTOR4_IN2 Pin=U1-46
+Change Class Name : Old Net Name=原理图v1.0 New Net Name=原理图v1.2
+Added Member To Class: ClassName=原理图v1.2 Member=Component R10 Res1
+Added Room: Name=原理图v1.2

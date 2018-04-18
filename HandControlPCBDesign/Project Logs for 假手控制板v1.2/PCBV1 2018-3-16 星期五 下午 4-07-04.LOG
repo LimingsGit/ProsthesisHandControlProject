@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=MOTOR1_IN2 Pin=U1-18
+Removed Pin From Net: NetName=MOTOR1_IN1 Pin=U1-19
+Change Component Designator: OldDesignator=0.1uf NewDesignator=C13
+Change Component Designator: OldDesignator=0.1uf NewDesignator=C15
+Change Component Designator: OldDesignator=1k NewDesignator=R9
+Change Component Designator: OldDesignator=8MHz NewDesignator=G1
+Change Component Designator: OldDesignator=8v_input NewDesignator=P3
+Change Component Designator: OldDesignator=10uf NewDesignator=C12
+Change Component Designator: OldDesignator=10uf NewDesignator=C14
+Change Component Designator: OldDesignator=LED*2 NewDesignator=D1
+Change Component Designator: OldDesignator=Reset NewDesignator=SB1
+Change Component Designator: OldDesignator=SWD NewDesignator=P1
+Change Component Designator: OldDesignator=USART2 NewDesignator=P2
+Added Pin To Net: NetName=MOTOR1_IN1 Pin=U1-18
+Added Pin To Net: NetName=MOTOR1_IN2 Pin=U1-19
+Added Member To Class: ClassName=原理图v1.2 Member=Component C12 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component C13 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component P2 USART2

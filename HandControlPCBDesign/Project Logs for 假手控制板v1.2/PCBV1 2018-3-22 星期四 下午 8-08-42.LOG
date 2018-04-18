@@ -1,0 +1,30 @@
+Change Component Designator: OldDesignator=0.1uf NewDesignator=C6
+Change Component Designator: OldDesignator=0.1uf NewDesignator=C7
+Change Component Designator: OldDesignator=0.1uf NewDesignator=C8
+Change Component Designator: OldDesignator=0.1uf NewDesignator=C9
+Change Component Designator: OldDesignator=0.1uf NewDesignator=C13
+Change Component Designator: OldDesignator=0.1uf NewDesignator=C15
+Change Component Designator: OldDesignator=0R NewDesignator=R8
+Change Component Designator: OldDesignator=1k NewDesignator=R6
+Change Component Designator: OldDesignator=1k NewDesignator=R7
+Change Component Designator: OldDesignator=1k NewDesignator=R9
+Change Component Designator: OldDesignator=4.7uf NewDesignator=C4
+Change Component Designator: OldDesignator=4.7uf NewDesignator=C5
+Change Component Designator: OldDesignator=10k NewDesignator=R1
+Change Component Designator: OldDesignator=10k NewDesignator=R2
+Change Component Designator: OldDesignator=10k NewDesignator=R4
+Change Component Designator: OldDesignator=10k NewDesignator=R5
+Change Component Designator: OldDesignator=10uf NewDesignator=C12
+Change Component Designator: OldDesignator=10uf NewDesignator=C14
+Added Member To Class: ClassName=原理图v1.2 Member=Component C5 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component C7 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component C8 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component C9 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component C13 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component C14 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component C15 Cap
+Added Member To Class: ClassName=原理图v1.2 Member=Component R2 Res1
+Added Member To Class: ClassName=原理图v1.2 Member=Component R4 Res1
+Added Member To Class: ClassName=原理图v1.2 Member=Component R5 Res1
+Added Member To Class: ClassName=原理图v1.2 Member=Component R7 Res1
+Added Member To Class: ClassName=原理图v1.2 Member=Component R9 Res1
