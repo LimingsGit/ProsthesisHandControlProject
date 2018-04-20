@@ -116,7 +116,7 @@ extern u16 TIM3_counter;
 typedef void (*MOTOR_RUN)(Motor_dir flag, float duty);
 MOTOR_RUN Motor_run[MotorNum] = {Motor1_run, Motor2_run, Motor3_run, Motor4_run, Motor5_run}; 
 
-/*电机运动函数，即电机沿设定的方向（flag），以一定的占空比(duty)运动time时间（ms），然后停止*/
+/*电机运动函数，即各个电机沿设定的方向（flag），以各自的占空比(duty)运动time时间（ms），然后停止*/
 void motor_move(Motor_dir *flag, float *duty, u16 time)
 {
 	u8 MotorNo;
@@ -134,6 +134,59 @@ void motor_move(Motor_dir *flag, float *duty, u16 time)
 	}
 }
 
+/*软件保护函数，保护电机不堵转*/
+const float MaxLocation[5] = {10.0f, 9.0f, 9.0f, 10.0f, 6.0f}; //最大运动次数
+float DecLocation[5] = {10.0f/9.0f, 9.0f/8.0f, 1.0f, 1.0f, 1.0f}; //返程增量
+static float NowLocation[5] = {0.0f, 0.0f, 0.0f, 0.0f, 0.0f}; //初始状态，即完全伸展状态
+void UpdateSafeDis(Motor_dir *flag, float *duty, u8 index)
+{
+	if(index == 0 || index == 2 || index == 4)   //小拇指  中指  大拇指 
+	{
+		if(flag[index] == Motor_EWD) //弯曲
+		{
+			if(NowLocation[index] + 1.0f > MaxLocation[index])
+				duty[index] = 0;
+			else
+				NowLocation[index] += 1.0f;
+		}
+		else if(flag[index] == Motor_REV) //伸展  
+		{
+			if(NowLocation[index] - DecLocation[index] < 0)
+				duty[index] = 0;
+			else
+				NowLocation[index] -= DecLocation[index];
+		}
+	}
+	else    //无名指和食指
+	{
+		if(flag[index] == Motor_REV) //弯曲
+		{
+			if(NowLocation[index] + 1.0f > MaxLocation[index])   //弯曲超过阈值
+				duty[index] = 0;
+			else
+				NowLocation[index] += 1.0f;
+		}
+		else if(flag[index] == Motor_EWD) //伸展
+		{
+			if(NowLocation[index] - DecLocation[index] < 0)  //伸展超过阈值
+				duty[index] = 0;
+			else
+				NowLocation[index] -= DecLocation[index];
+		}
+	}
+}
 
+/*计算安全移动的duty，保护电机不堵转*/
+void CalSafeMoveDis(Motor_dir *flag, float *duty)
+{
+	u8 i = 0;
+	for(i = 0;i < 5;i++)
+	{
+		if(flag[i] < 2)
+		{
+			UpdateSafeDis(flag, duty, i);
+		}
+	}
+}	
 
 

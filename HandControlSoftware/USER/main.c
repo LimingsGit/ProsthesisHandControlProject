@@ -1,10 +1,6 @@
 /*
- * Copyright (C), 2018, Xi'an jiaotong University
- * File name: main.c
- * Author:Zhangliming 	Version:1.0  Date:2018/04/01
- * date 2018/04/18
- * Description: 接收上位机的指令，完成测试、假手张开、闭合等简单功能 
- * History:  
+假手控制板程序
+2018/3/30 by ZhangLiming
 */
 #include  "task.h"
 
@@ -24,6 +20,7 @@ u8 command = wait_command;
 	test_motor5_rev,		a:	大拇指伸展
 	hand_open,					b:	假手张开：执行该命令，各个手指伸展一定的距离，为避免电机堵转，请确保假手处于闭合状态
 	hand_close,					c:	假手闭合：同上，请确保假手处于伸展状态
+	hand_reset,        	d； 发送该指令意味着假手目前已经处于完全伸展状态
 	
 	备注：若想继续增添指令，1)请在枚举变量COMMAND_FLAG后增加新指令名称;
 													2)在命令处理函数入口矩阵TaskProcFun中增加新的命令处理函数指针;
@@ -38,7 +35,8 @@ TASKPROCFUN TaskProcFun[COMMAND_NUMBER] = {
 	Task_test_func, Task_test_func,
 	Task_test_func, Task_test_func,
 	Task_test_func, Task_test_func,
-	Task_hand_open, Task_hand_close
+	Task_hand_open, Task_hand_close,
+	Task_hand_reset
 };
 
 int main(void)

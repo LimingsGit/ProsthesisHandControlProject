@@ -21,6 +21,15 @@ void BSP_Init(void)
 	TIM3_Init(99, 719); 		//定时器1ms
 }
 
+/*假手目前已经处于完全伸展状态，更新HaveReceiveResetOrder的状态*/
+u8 HaveReceiveResetOrder = 0;
+void Task_hand_reset(u8 CommandNo)
+{
+	LED0 = !LED0;
+	LED1 = !LED1;
+	HaveReceiveResetOrder = 1;
+}
+
 /*缺省命令/空闲状态处理函数*/
 void Task_wait_func(u8 CommandNo)
 {
@@ -33,10 +42,15 @@ void Task_test_func(u8 CommandNo)
 	Motor_dir flag[MotorNum] = {Default, Default, Default, Default, Default};
 	float duty[MotorNum] = {0.0f, 0.0f, 0.0f, 0.0f, 0.0f};
 	u8 MotorNo = (CommandNo + 1) / 2 - 1;	 	//根据命令获得电机编号	
-	duty[MotorNo] = 0.7f;								//设置对应的占空比
 	flag[MotorNo] = (Motor_dir)((CommandNo + 1) % 2);		//设置电机运动方向
+	if(MotorNo == 2)
+		duty[MotorNo] = 0.3f;
+	else
+		duty[MotorNo] = 0.7f;								//设置对应的占空比
 	LED0 = !LED0;
 	LED1 = !LED1;
+	if(HaveReceiveResetOrder == 1) 
+		CalSafeMoveDis(flag, duty);
 	motor_move(flag, duty, 100);
 	command = wait_command;
 }
@@ -45,12 +59,15 @@ void Task_test_func(u8 CommandNo)
 void Task_hand_open(u8 CommandNo)
 {
 	Motor_dir flag[MotorNum] = {Motor_REV, Motor_EWD, Motor_REV, Motor_EWD, Motor_REV};
-	float duty[MotorNum] = {0.75f, 0.50f, 0.30f, 0.75f, 0.70f};
+	float duty[MotorNum] = {0.75f, 0.70f, 0.30f, 0.75f, 0.70f};
 	LED0 = !LED0;
 	LED1 = !LED1;
+	if(HaveReceiveResetOrder == 1) 
+		CalSafeMoveDis(flag, duty);	
 	motor_move(flag, duty, 100);
 	command = wait_command;
 }
+
 
 /*手闭合命令处理函数（命令c）*/
 void Task_hand_close(u8 CommandNo)
@@ -59,7 +76,13 @@ void Task_hand_close(u8 CommandNo)
 	float duty[MotorNum] = {0.75f, 0.70f, 0.30f, 0.75f, 0.70f};
 	LED0 = !LED0;
 	LED1 = !LED1;
+	if(HaveReceiveResetOrder == 1) 
+		CalSafeMoveDis(flag, duty);
 	motor_move(flag, duty, 100);
 	command = wait_command;
 }	
+
+
+
+
 

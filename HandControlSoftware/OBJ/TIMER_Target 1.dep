@@ -1,6 +1,6 @@
 Dependencies for Project 'TIMER', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5AD5B3BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\TASK-I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
-I (..\TASK\task.h)(0x5AD5B144)
+F (.\main.c)(0x5AD9AD65)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\TASK-I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\TASK\task.h)(0x5AD9AD48)
 I (..\SYSTEM\sys\sys.h)(0x5055B57C)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -68,7 +68,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x504ED09C)
 I (..\HARDWARE\LED\led.h)(0x5AD5AE2C)
-F (..\HARDWARE\MOTOR\Motor.c)(0x5AD5B436)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\TASK-I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
+F (..\HARDWARE\MOTOR\Motor.c)(0x5AD9B642)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\TASK-I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
 I (..\SYSTEM\sys\sys.h)(0x5055B57C)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -81,7 +81,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x504ED09C)
-I (..\HARDWARE\MOTOR\motor.h)(0x5AD5AF6B)
+I (..\HARDWARE\MOTOR\motor.h)(0x5AD9ABCF)
 I (..\SYSTEM\delay\delay.h)(0x50513B7A)
 I (..\HARDWARE\TIMER\timer.h)(0x5AC1F08C)
 F (..\SYSTEM\delay\delay.c)(0x5AC09420)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\TASK-I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
@@ -127,7 +127,7 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x504ED09C)
 I (..\HARDWARE\TIMER\timer.h)(0x5AC1F08C)
 I (..\SYSTEM\sys\sys.h)(0x5055B57C)
 I (..\SYSTEM\usart\usart.h)(0x5AD5AE21)
-I (..\TASK\task.h)(0x5AD5B144)
+I (..\TASK\task.h)(0x5AD9AD48)
 F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\TASK-I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
 I (D:\software\keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
 F (..\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork -I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
@@ -191,8 +191,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x504EBD90)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x504ED09C)
-F (..\TASK\task.c)(0x5AD5B1E4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\TASK-I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\task.o --omf_browse ..\obj\task.crf --depend ..\obj\task.d)
-I (..\TASK\task.h)(0x5AD5B144)
+F (..\TASK\task.c)(0x5AD9B555)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\TASK-I H:\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE-I D:\software\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I D:\software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\task.o --omf_browse ..\obj\task.crf --depend ..\obj\task.d)
+I (..\TASK\task.h)(0x5AD9AD48)
 I (..\SYSTEM\sys\sys.h)(0x5055B57C)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -205,7 +205,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x504ED09C)
-I (..\HARDWARE\MOTOR\motor.h)(0x5AD5AF6B)
+I (..\HARDWARE\MOTOR\motor.h)(0x5AD9ABCF)
 I (..\HARDWARE\LED\led.h)(0x5AD5AE2C)
 I (..\SYSTEM\delay\delay.h)(0x50513B7A)
 I (..\SYSTEM\usart\usart.h)(0x5AD5AE21)

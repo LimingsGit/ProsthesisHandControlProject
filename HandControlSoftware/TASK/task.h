@@ -17,6 +17,7 @@ typedef enum COMMAND_FLAG
 	test_motor5_rev,		//a				¥Ûƒ¥÷∏…Ï’π
 	hand_open,					//b
 	hand_close,					//c
+	hand_reset,					//d
 	COMMAND_NUMBER
 }Comand_Flag;
 
@@ -25,5 +26,6 @@ void Task_wait_func(u8 CommandNo);
 void Task_test_func(u8 CommandNo);
 void Task_hand_open(u8 CommandNo);
 void Task_hand_close(u8 CommandNo);
+void Task_hand_reset(u8 CommandNo);
 
 #endif

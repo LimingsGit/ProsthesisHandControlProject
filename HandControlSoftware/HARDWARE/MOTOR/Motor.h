@@ -16,7 +16,7 @@ typedef enum MOTORNO
 /*电机运动方向*/
 typedef enum MOTOR_DIR
 {
-	Motor_EWD,  //0
+	Motor_EWD,  //0 
 	Motor_REV,	//1
 	Motor_STOP,
 	Default
@@ -30,5 +30,9 @@ void Motor5_run(Motor_dir flag, float duty);
 
 /*电机运动函数，即电机沿设定的方向（flag），以一定的占空比(duty)运动time时间（ms），然后停止*/
 void motor_move(Motor_dir *flag, float *duty, u16 time);
+
+/*计算安全移动的duty，保护电机不堵转*/
+void CalSafeMoveDis(Motor_dir *flag, float *duty);
+
 #endif
 
