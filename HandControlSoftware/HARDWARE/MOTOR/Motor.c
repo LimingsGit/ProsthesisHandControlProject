@@ -135,8 +135,8 @@ void motor_move(Motor_dir *flag, float *duty, u16 time)
 }
 
 /*软件保护函数，保护电机不堵转*/
-const float MaxLocation[5] = {10.0f, 9.0f, 9.0f, 10.0f, 6.0f}; //最大运动次数
-float DecLocation[5] = {10.0f/9.0f, 9.0f/8.0f, 1.0f, 1.0f, 1.0f}; //返程增量
+const float MaxLocation[5] = {10.0f, 10.0f, 9.0f, 10.0f, 6.0f}; //最大运动次数
+float DecLocation[5] = {10.0f/9.0f, 10.0f/8.0f, 9.0f/8.0f, 1.0f, 1.0f}; //返程增量
 static float NowLocation[5] = {0.0f, 0.0f, 0.0f, 0.0f, 0.0f}; //初始状态，即完全伸展状态
 void UpdateSafeDis(Motor_dir *flag, float *duty, u8 index)
 {

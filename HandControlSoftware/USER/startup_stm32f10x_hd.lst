@@ -565,10 +565,10 @@ ARM Macro Assembler    Page 9
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=..\obj\startup_stm32f10x_hd.d -o..\obj\startup_stm32f10x_hd.o -IH:
-\research\假手控制板设计\程序\pcbv1.2\new_hand_control_v1.2\USER\RTE -ID:\softw
-are\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include -ID:\software\keil\AR
-M\CMSIS\Include --predefine="__UVISION_VERSION SETA 514" --predefine="STM32F10X
-_MD SETA 1" --list=.\startup_stm32f10x_hd.lst ..\CORE\startup_stm32f10x_hd.s
+\research\ProsthesishandControlProject\HandControlSoftware\USER\RTE -ID:\softwa
+re\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include -ID:\software\keil\ARM
+\CMSIS\Include --predefine="__UVISION_VERSION SETA 514" --predefine="STM32F10X_
+MD SETA 1" --list=.\startup_stm32f10x_hd.lst ..\CORE\startup_stm32f10x_hd.s
 
 
 
